@@ -1,0 +1,103 @@
+Package: wget
+Version: 1.19.5-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gettext, libssl1.0
+Filename: debs/wget_1.19.5-2_iphoneos-arm.deb
+Size: 199810
+MD5sum: 94d0f5858b02330e081707db5c9937df
+SHA1: 4e7672da7e35b086e060ecda0115c41441b105e9
+Section: Networking
+Priority: important
+Description: simple HTTP file transfer client
+Tag: purpose::console, role::hacker
+
+
+Package: gettext
+Version: 0.19.8-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 7592
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: debs/gettext_0.19.8-1_iphoneos-arm.deb
+Size: 745876
+MD5sum: a45d986bf334bef22918691b855a0993
+SHA1: 8ea7e5d8f875b49162e6cc668909f8f4e1db7e6d
+Section: System
+Priority: optional
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+Tag: purpose::library, role::developer
+
+Package: libssl1.0
+Version: 1.0.2s-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 6440
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ca-certificates
+Conflicts: openssl (<<1.0.2q)
+Filename: debs/libssl1.0_1.0.2s-1_iphoneos-arm.deb
+Size: 815306
+MD5sum: 77db2446c032e43eee9924a6bbcb39ae
+SHA1: 6b5afd03d23983153e9b4d875e0b047006cbaba2
+Section: Security
+Priority: standard
+Description: OpenSSL Libraries for version 1.0
+Name: OpenSSL 1.0 Libraries
+Tag: purpose::library, role::developer
+
+Package: ca-certificates
+Version: 0.0.1-1
+Architecture: all
+Maintainer: Sam Bingner
+Depends: firmware (>= 2.0)
+Conflicts: org.thebigboss.cacerts
+Replaces: org.thebigboss.cacerts
+Provides: org.thebigboss.cacerts
+Filename: debs/ca-certificates_0-1_all.deb
+Size: 134436
+MD5sum: 5d4744afecd3bd84d9921bfa8755f70e
+SHA1: 2887452fc6e3007ead9053e9afbcd5d6dc3ebf99
+Section: Utilities
+Priority: optional
+Multi-Arch: foreign
+Description: CA certs for curl, wget, git.
+Tag: purpose::console, role::hacker
+Name: CA Certs
+
+Package: ncurses
+Version: 6.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 7064
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses5-libs
+Filename: debs/ncurses_6.1-1_iphoneos-arm.deb
+Size: 337854
+MD5sum: aff0061558395fdd3108dcaa0f454e6e
+SHA1: ab30674aef8848deb62dbcae8ea664e8823ad668
+Section: System
+Priority: required
+Description: feature-complete terminal library
+Name: New Curses
+Tag: purpose::library, role::developer
+
+Package: ncurses5-libs
+Version: 5.9-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 2288
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/ncurses5-libs_5.9-1_iphoneos-arm.deb
+Size: 174740
+MD5sum: 42d7fe41d6350eeec74843a1cfcdd013
+SHA1: ad2ad37efc7719f8d09979db32648f12173c171e
+Section: System
+Priority: required
+Description: feature-complete terminal library
+Name: New Curses
+Tag: purpose::library, role::developer
