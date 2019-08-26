@@ -101,3 +101,416 @@ Priority: required
 Description: feature-complete terminal library
 Name: New Curses
 Tag: purpose::library, role::developer
+
+
+Package: ffmpeg
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 880
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libavdevice58 (>= 4.1.3), libavfilter7 (>= 4.1.3), libavformat58 (>= 4.1.3), libavcodec58 (>= 4.1.3), libpostproc55 (>= 4.1.3), libswresample3 (>= 4.1.3), libswscale5 (>= 4.1.3), libavutil56 (>= 4.1.3), gnutls, libvpx6, xz, libmp3lame0, libopus0, libtheora0, libogg0, libvorbis0, libvorbisenc2, libx264-157, libx265-169, libxvidcore4
+Filename: debs/ffmpeg_4.1.3-1_iphoneos-arm.deb
+Size: 111814
+MD5sum: 4b6d20870750c67e59614cba4001edde
+SHA1: 77ca335ac99b945fa3acab04e23caf4ec5e0ef51
+Section: Multimedia
+Priority: optional
+Description: Tools for transcoding, streaming and playing of multimedia files
+Tag: purpose::console, role::developer
+
+Package: libavdevice58
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 224
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libavfilter7, libswscale5, libpostproc55, libavformat58, libavcodec58, libswresample3, libavutil56, gnutls, libvpx6, xz, libmp3lame0, libopus0, libtheora0, libogg0, libvorbis0, libvorbisenc2, libx264-157, libx265-169, libxvidcore4
+Filename: debs/libavdevice58_4.1.3-1_iphoneos-arm.deb
+Size: 19338
+MD5sum: 555a0b2bfaad70a61da2c4fec2789a6e
+SHA1: a064c8aef7f23d6fabdec3c4519e76c9478cb1f9
+Section: Multimedia
+Priority: optional
+Description: FFmpeg library for handling input and output devices
+Tag: purpose::console, role::developer
+
+Package: libavfilter7
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4888
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libavfilter7, libswscale5, libpostproc55, libavformat58, libavcodec58, libswresample3, libavutil56, gnutls, libvpx6, xz, libmp3lame0, libopus0, libtheora0, libogg0, libvorbis0, libvorbisenc2, libx264-157, libx265-169, libxvidcore4
+Filename: debs/libavfilter7_4.1.3-1_iphoneos-arm.deb
+Size: 789716
+MD5sum: 4ad33c400556f6981f6a3766201ac4e2
+SHA1: 1ccce18cd7cc13f619cc1586fed0025e640ce035
+Section: Multimedia
+Priority: optional
+Description: FFmpeg library containing media filters
+Tag: purpose::console, role::developer
+
+Package: libavformat58
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4360
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libavcodec58, libswresample3, libavutil56, gnutls, libvpx6, xz, libmp3lame0, libopus0, libtheora0, libogg0, libvorbis0, libvorbisenc2, libx264-157, libx265-169, libxvidcore4
+Filename: debs/libavformat58_4.1.3-1_iphoneos-arm.deb
+Size: 802214
+MD5sum: 58f5545f78b80f5e3ec39336fd5515b7
+SHA1: 28eaeb21453faa2a86c6e9b0fab8e21f7e9a7470
+Section: Multimedia
+Priority: optional
+Description: FFmpeg library with (de)muxers for multimedia containers
+Tag: purpose::console, role::developer
+
+
+Package: libavcodec58
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 25112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libavutil56, libmp3lame0, libogg0, libopus0, libswresample3, libtheora0, libvorbis0, libvorbisenc2, libvpx6, libx264-157, libx265-169, libxvidcore4, xz
+Filename: debs/libavcodec58_4.1.3-1_iphoneos-arm.deb
+Size: 4443078
+MD5sum: 0aad07866d9d5905e25483eb751ede78
+SHA1: 2c64feb952d0b75d53526bea2f98ecfabd2148ff
+Section: Multimedia
+Priority: optional
+Description: FFmpeg library with de/encoders for audio/video codecs
+Tag: purpose::console, role::developer
+
+Package: libpostproc55
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 152
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libavutil56
+Filename: debs/libpostproc55_4.1.3-1_iphoneos-arm.deb
+Size: 14948
+MD5sum: c58e25ba8d955214c5b9f1fcc8fe6b0a
+SHA1: 07667965d6b08fb587fd02744cbe3219819a02e0
+Section: Multimedia
+Priority: optional
+Description: FFmpeg library for post processing
+Tag: purpose::console, role::developer
+
+Package: libswresample3
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 240
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libavutil56
+Filename: debs/libswresample3_4.1.3-1_iphoneos-arm.deb
+Size: 31702
+MD5sum: 718506b33679f191c101b28b7717a172
+SHA1: cc39306087316a7e21176b2ed846039bc5aca4ce
+Section: Multimedia
+Priority: optional
+Description: FFmpeg library for audio resampling, rematrixing etc.
+Tag: purpose::console, role::developer
+
+Package: libswscale5
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1096
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libavutil56
+Filename: debs/libswscale5_4.1.3-1_iphoneos-arm.deb
+Size: 130364
+MD5sum: 17e96102b7cc628728d475ec3c3caf8b
+SHA1: 8f56e7e4dfdcc63d894bcb4299f28d6a7c91ac24
+Section: Multimedia
+Priority: optional
+Description: FFmpeg library for image scaling and various conversions
+Tag: purpose::console, role::developer
+
+Package: libavutil56
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 808
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libavutil56_4.1.3-1_iphoneos-arm.deb
+Size: 142038
+MD5sum: f7875bebb3a6191dfa34c21596822d4e
+SHA1: 54e9ff4ad690cc53b8f32b8461c3423c236ff3dc
+Section: Multimedia
+Priority: optional
+Description: FFmpeg library with functions for simplifying programming
+Tag: purpose::console, role::developer
+
+Package: gnutls
+Version: 3.5.19-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 7584
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gcrypt, gettext, libgmp10, libidn2, libunistring, nettle, p11-kit, readline
+Filename: debs/gnutls_3.5.19-1_iphoneos-arm.deb
+Size: 757778
+MD5sum: e6bce98d97c68450b7755a53b8d67355
+SHA1: d34315f24245eae7b639eef76bcd36e66f61a964
+Section: Security
+Priority: optional
+Homepage: http://www.gnu.org/software/gnutls/
+Description: free sofware alternative to OpenSSL
+Name: GnuTLS
+Tag: purpose::library, role::developer
+
+Package: libvpx6
+Version: 1.8.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2592
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libvpx6_1.8.0-1_iphoneos-arm.deb
+Size: 478316
+MD5sum: b689982c03dbd19440cd9088c79bf7d5
+SHA1: e4bb49fb8b3c32257088f93cfe07ea1c3e33ab62
+Section: Multimedia
+Priority: optional
+Description: VP8/VP9 video codec
+Tag: purpose::library, role::developer
+
+
+Package: xz
+Version: 5.2.4-4
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1176
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: lzma (>=1:0)
+Conflicts: xz-utils, com.mc.xz
+Provides: xz-utils
+Filename: debs/xz_5.2.4-4_iphoneos-arm.deb
+Size: 128578
+MD5sum: 74eb7f8aebc92cad1260292d8b695eac
+SHA1: ba4a9539be17b5b91c514d13ddc65e22e89f31e5
+Section: Archiving
+Priority: required
+Homepage: http://tukaani.org/lzma/
+Description: slower, but better, compression algorithm
+Name: XZ Utils
+Tag: purpose::console, role::hacker
+
+Package: libmp3lame0
+Version: 3.100-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 712
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libmp3lame0_3.100-1_iphoneos-arm.deb
+Size: 122778
+MD5sum: 158f0f3ebc2029ee46e5d3c7c55d1684
+SHA1: f4eead49b2079e24a8384bb5a89d64fc83ec3df4
+Section: Multimedia
+Priority: optional
+Description: MP3 encoding library
+Tag: purpose::library, role::developer
+
+Package: libopus0
+Version: 1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 792
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libopus0_1.3-1_iphoneos-arm.deb
+Size: 178660
+MD5sum: 8e3861779d9af017e0258f937a5731d4
+SHA1: 16c179e58f815d071d600e5302186b03298ffb84
+Section: Multimedia
+Priority: optional
+Description: Opus codec runtime library
+Tag: purpose::library, role::developer
+
+Package: libtheora0
+Version: 1.1.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1064
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libogg0, libvorbis0
+Filename: debs/libtheora0_1.1.1-1_iphoneos-arm.deb
+Size: 100546
+MD5sum: ab7733698a2f2e575b07170c37124116
+SHA1: 33e7dfe5c3a8f7faff86a981cf0f55e539b98a15
+Section: Multimedia
+Priority: optional
+Description: Theora Video Compression Codec
+Tag: purpose::library, role::developer
+
+Package: libogg0
+Version: 1.3.3-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 120
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: ogg
+Replaces: ogg
+Provides: ogg
+Filename: debs/libogg0_1.3.3-1_iphoneos-arm.deb
+Size: 8886
+MD5sum: d8c0e6f1407b0960f1ea93c0bb258e51
+SHA1: 30d81d2f156ed04c70b0c0c6d1ddb76a71617b81
+Section: Multimedia
+Priority: optional
+Description: Ogg bitstream library
+Tag: purpose::library, role::developer
+
+
+Package: libvorbis0
+Version: 1.3.6-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libogg0
+Conflicts: vorbis
+Filename: debs/libvorbis0_1.3.6-1_iphoneos-arm.deb
+Size: 80850
+MD5sum: a4a5f5d7dec4bf4ee4ed5a07f5c208b7
+SHA1: a351eb3329fa5bd0427c36ae2149f715c2296ee9
+Section: Multimedia
+Priority: optional
+Description: decoder library for Vorbis General Audio Compression Codec
+Tag: purpose::library, role::developer
+
+
+Package: libvorbisenc2
+Version: 1.3.6-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1664
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libvorbis0, libogg0
+Conflicts: vorbis
+Filename: debs/libvorbisenc2_1.3.6-1_iphoneos-arm.deb
+Size: 82466
+MD5sum: 3d46eb08a71c1f40715c13750d4a67f3
+SHA1: 94811d1889aa68bb1c2e44df9bf01bd1a02d5ca2
+Section: Multimedia
+Priority: optional
+Description: decoder library for Vorbis General Audio Compression Codec
+Tag: purpose::library, role::developer
+
+
+Package: libx264-157
+Version: 0.157.2945-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2984
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libx264-157_0.157.2945-1_iphoneos-arm.deb
+Size: 388136
+MD5sum: 09a888d7d03429d2c75c75b598b6856f
+SHA1: 24599510b5b427706a49219b4244ab2a98648ce7
+Section: Multimedia
+Priority: optional
+Description: x264/AVC video coding library
+Tag: purpose::library, role::developer
+
+
+Package: libx265-169
+Version: 3.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 7408
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libx265-169_3.0-1_iphoneos-arm.deb
+Size: 541714
+MD5sum: dc14ffc1c8e7a7d1a313b663ab3c9eb6
+SHA1: 38856a45b181f4a0e66c68b8b62192f2267cd9c2
+Section: Multimedia
+Priority: optional
+Description: x265 video coding library
+Tag: purpose::library, role::developer
+
+Package: libxvidcore4
+Version: 1.3.5-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1056
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libxvidcore4_1.3.5-1_iphoneos-arm.deb
+Size: 147964
+MD5sum: fc5aed458d31f4ac468c110fee1f3ddb
+SHA1: 765965a0680c905cf13d64b9d078267a7a03fa23
+Section: Multimedia
+Priority: optional
+Description: High-performance, high-quality MPEG-4 video library
+Tag: purpose::library, role::developer
+
+
+Package: libpython3.7
+Version: 3.7.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 108136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, readline, expat, xz, libssl1.0, libffi
+Filename: debs/libpython3.7_3.7.3-1_iphoneos-arm.deb
+Size: 10173370
+MD5sum: 1211e52a47c1580a93d3565452c02dd7
+SHA1: 1f7a7af79149fe5f8ea89792a0eb41586aa101d8
+Section: Scripting
+Priority: optional
+Description: Shared Python runtime libraries (version 3.7)
+Tag: purpose::console, role::hacker
+
+Package: libffi
+Version: 3.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 248
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libffi_3.2.1-1_iphoneos-arm.deb
+Size: 17298
+MD5sum: ee955fe80f2b641e062029e127ec5a06
+SHA1: 80623e9dcc03675e222fab3e824e85059ee65782
+Section: Development
+Priority: optional
+Multi-Arch: foreign
+Description: dynamic generation of function calls
+Tag: purpose::library, role::developer
+
+Package: expat
+Version: 2.2.5-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 624
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/expat_2.2.5-1_iphoneos-arm.deb
+Size: 66922
+MD5sum: 57c44104876d363c27177d3f38bd8ec3
+SHA1: 8a67a2edd50ecab78ff55cae3eff76ed49ee3e3f
+Section: Development
+Priority: standard
+Multi-Arch: foreign
+Description: stream-oriented XML parser written in C
+Name: XML Parser Toolkit
+Tag: purpose::library, role::developer
+
+Package: readline
+Version: 8.0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: debs/readline_8.0-1_iphoneos-arm.deb
+Size: 129432
+MD5sum: 7ad4f53a452eb73cc40e0f78ade4d97e
+SHA1: 6999462680a86071f76c022e24fc1a64dfeaf608
+Section: Development
+Priority: required
+Description: command-line history management
+Tag: purpose::library, role::developer
